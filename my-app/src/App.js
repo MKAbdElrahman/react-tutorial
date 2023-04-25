@@ -1,7 +1,11 @@
 import './App.css';
+import './components/ExpenseItem'
+import ExpenseItem from './components/ExpenseItem';
 
 function App() {
-  return ("Learn React");
+  return <div>
+    <ExpenseItem></ExpenseItem>
+  </div>
 }
 
 export default App;
